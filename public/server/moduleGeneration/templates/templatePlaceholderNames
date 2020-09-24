@@ -1,0 +1,27 @@
+*: generated
+_: {{{use raw in template}}}
+%: boolean
+{
+  moduleName
+  moduleDescription
+  moduleCategory
+  moduleClassName
+  moduleSlug
+
+  modsettings
+  _allModuleTabs
+  %isLast => (true && ',') 
+  tabSlug
+  tabTitle
+  _allTabSections
+  sectionTitle
+  sectionSlug
+  _allSectionFields
+  fieldLabel
+  fieldType
+  _fieldTypeSettings
+  _fieldTypePreview
+
+  fieldsTextDefaultValue
+  fieldClassSelector
+}

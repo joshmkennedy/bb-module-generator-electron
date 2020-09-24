@@ -1,0 +1,14 @@
+<?php
+/* 
+plugin name:{{pluginName}}
+author: {{authorName}}
+description: {{pluginDescription}}
+*/
+define('{{CONST_PluginName}}_DIR', /* whaats the plugin dir */);
+define('{{CONST_PluginName}}_URL', /* whaats the plugin url */);
+
+add_action('init', function(){
+  if(class_exists('FLBuilder')){
+    include_once {{CON_pluginDir}} . '/modules/{{moduleName}}.php';
+  }
+});

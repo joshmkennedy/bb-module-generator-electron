@@ -1,0 +1,6 @@
+      '{{fieldSlug}}'         => array(
+              'label'                 =>  "{{fieldLabel}}",
+              'type'                  =>  "{{fieldType}}",
+              {{{_fieldTypeSettings}}}
+              {{{_fieldTypePreview}}}  
+            )

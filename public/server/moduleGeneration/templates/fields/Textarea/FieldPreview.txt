@@ -1,0 +1,5 @@
+'preview'     => array(
+                  'type'     => 'text',
+                  'selector' => '.{{fieldClassSelector}}',
+              ),
+              'connections' => array( 'string', 'html' ),

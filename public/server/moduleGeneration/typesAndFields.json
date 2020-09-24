@@ -1,0 +1,38 @@
+{
+  "types": [
+    {
+      "name": "Text",
+      "fieldTypeSettings": [
+        {
+          "name": "fieldsTextDefaultValue",
+          "type": "text"
+        }
+      ],
+      "fieldPreviewSettings": [
+        {
+          "name": "fieldClassSelector",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Textarea",
+      "fieldTypeSettings": [
+        {
+          "name": "fieldsTextareaDefaultValue",
+          "type": "text"
+        },
+        {
+          "name": "fieldsNumberOfRows",
+          "type": "number"
+        }
+      ],
+      "fieldPreviewSettings": [
+        {
+          "name": "fieldClassSelector",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+'default'            =>  "{{fieldsTextareaDefaultValue}}",
+              'rows'               => '5',

@@ -1,0 +1,6 @@
+    "{{sectionSlug}}" => array(
+            'title'         =>  '{{sectionTitle}}',
+            'fields'        => array(
+            {{{_allSectionFields}}}
+          )
+        )

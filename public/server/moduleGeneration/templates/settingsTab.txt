@@ -1,0 +1,6 @@
+  "{{tabSlug}}" => array(
+          'title'     => '{{tabTitle}}',
+          'sections'   =>  array(
+            {{{_allTabSections}}}
+          )
+        )

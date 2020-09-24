@@ -1,0 +1,25 @@
+<?php
+class {{moduleClassName}} extends FLBuilderModule {
+
+	/**
+	 * @method __construct
+	 */
+	public function __construct() {
+		parent::__construct(array(
+			'name'            => __( '{{moduleName}}', 'module-gen' ),
+			'description'     => __( '{{moduleDescription}}', 'module-gen' ),
+			'category'        => __( '{{moduleCategory}}', 'module-gen' ),
+			'partial_refresh' => true,
+			'dir'             => __DIR__,
+			'url'             => plugins_url( '', __FILE__ ),
+			'group'           =>  'Custom Modules'
+    ));
+    
+      
+      $this->add_css( '{{moduleSlug}}-style', $this->url . 'css/index.css' );
+      $this->add_js( '{{moduleSlug}}-script', $this->url . 'js/index.js'  );
+   
+  }
+}
+  
+{{{moduleSettings}}}

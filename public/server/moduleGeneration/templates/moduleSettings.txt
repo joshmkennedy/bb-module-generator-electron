@@ -1,0 +1,5 @@
+FLBuilder::register_module(
+	'{{moduleClassName}}', array(
+        {{{moduleSettingsTabs}}}
+  )
+);
